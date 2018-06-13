@@ -10,6 +10,6 @@
     <%= ingredient.label :quantity %>
     <%= ingredient.text_field :quantity %><br>
   <% end %>
- 
+  <%= link_to 'Add New Ingredient', @recipe %>
   <%= f.submit %>
 <% end %>
